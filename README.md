@@ -19,6 +19,7 @@ This application was developed to demonstrate secure user authentication and aut
 
 ## How to Use
 
+0. **Preparation**: Clone this repository and install dependencies via `npm install`
 1. **Setup**: Configure GitHub OAuth app credentials in your environment
 2. **Start**: Run the application with `npm start` and follow the server address in the CLI
 3. **Login**: Click "Login with GitHub" to authenticate via OAuth
