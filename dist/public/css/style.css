@@ -1,0 +1,27 @@
+nav {
+  height: 5rem;
+  margin-bottom: 5rem;
+}
+
+nav > div {
+  line-height: 5rem;
+}
+
+.login,
+.center {
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 2rem;
+  padding: 5rem;
+  background-color: beige;
+}
+
+.login > .button {
+  color: black;
+  background-color: rosybrown;
+}
+
+.row {
+  background-color: beige;
+  padding: 5%;
+}

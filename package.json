@@ -1,0 +1,33 @@
+{
+  "name": "passport-gh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc && cp -r views dist/views && cp -r public dist/public",
+    "start": "node dist/app.js",
+    "dev": "node --watch dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-partials": "^0.3.0",
+    "express-session": "^1.17.2",
+    "passport": "^0.4.1",
+    "passport-github2": "^0.1.12"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/express-partials": "^0.0.35",
+    "@types/express-session": "^1.18.2",
+    "@types/passport": "^1.0.17",
+    "@types/passport-github2": "^1.2.9",
+    "typescript": "^5.9.2"
+  }
+}
